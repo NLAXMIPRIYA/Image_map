@@ -1,5 +1,5 @@
 # Ex04 Places Around Me
-# Date:
+# Date:30-09-2025
 # AIM
 To develop a website to display details about the places around my house.
 
@@ -212,9 +212,7 @@ marriage.html
             margin-bottom: 20px;
         }
 
-        /* h1::before {
-            content: " ";
-        } */
+       
 
         img {
             display: block;
@@ -275,10 +273,6 @@ tskrishna.html
             font-size: 2.2rem;
             margin-bottom: 20px;
         }
-
-        /* h1::before {
-            content: "🌿 ";
-        } */
 
         img {
             display: block;
@@ -343,9 +337,6 @@ aadhar.html
             margin-bottom: 20px;
         }
 
-        /* h1::before {
-            content: "🌿 ";
-        } */
 
         img {
             display: block;
