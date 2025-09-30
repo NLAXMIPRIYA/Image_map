@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image_map</title>
+    <style>
+        img{
+            height: 100%;
+            width: 100%;
+            margin: 0%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <img src="{% static 'map.jpg' %}" alt="MAP" usemap="#image_map">
+<map name="image_map" >
+<area shape="poly" coords="75,80,277,93,256,224,67,215" title="Mangal" href="{% url 'mangal' %}" alt="Mangal Eri Park">
+<area shape="poly" coords="784,125,1055,124,1061,229,783,224" title="HOT_BREADS" href="{% url 'hotbreads' %}" alt="HOT_BREADS">
+<area shape="poly" coords="354,9,365,116,615,11,612,108" title="Marriage Hall" href="{% url 'marriage' %}" alt="Marriage_hall">
+<area shape="poly" coords="1373,96,1546,91,1543,248,1359,246" title="Metro Water" href="{% url 'tskrishna' %}" alt="Metro_water">
+<area shape="poly" coords="356,603,432,599,430,666,344,655,399,609,388,661,336,626,437,628,393,632,370,634,418,630,324,562,376,560,377,587,373,606,323,582,346,615,309,588,294,604" title="Aadhar Centre" href="{% url 'aadhar' %}" alt="aadhar">
+
+
+    </map>
+</body>
+</html>
